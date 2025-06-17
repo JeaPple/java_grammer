@@ -220,6 +220,15 @@ public class C06String {
         }
         System.out.println(result);
 
+//        문자열 비교
+        String str1 = "hello";
+        String str2 = "dello";
+        String str3 = "hello";
+        System.out.println(str1.compareTo(str2)); // 양수(아스키 코드를 뺀 값)
+        System.out.println(str2.compareTo(str1)); // 음수(아스키 코드를 뺀 값)
+        System.out.println(str1.compareTo(str3)); // 0
+
+
 //        프로그래머스 : 문자열밀기
 
     }
