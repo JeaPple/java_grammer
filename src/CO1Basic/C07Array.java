@@ -75,21 +75,18 @@ public class C07Array {
 //        현대적인 최적 알고리즘은 n*logn이다.
         int[] sortArr = {17, 12, 20, 10, 15};
 
-        for (int i = 0; i < sortArr.length - 1; i++) {
+        for (int i = 0; i < sortArr.length; i++) {
             int min = sortArr[i];
-            int minIndex = i;
+            int minIdx = i;
 
-//            min값을 찾기 위한 for문
             for (int j = i + 1; j < sortArr.length; j++) {
-                if (sortArr[j] < sortArr[i]) {
+                if (min > sortArr[j]) {
                     min = sortArr[j];
-                    minIndex = j;
+                    minIdx = j;
                 }
             }
-//                            자리체인지 로직
-            int temp = sortArr[i];
-            sortArr[i] = sortArr[minIndex];
-            sortArr[minIndex] = temp;
+            sortArr[minIdx] = sortArr[i];
+            sortArr[i] = min;
         }
         System.out.println(Arrays.toString(sortArr));
 
