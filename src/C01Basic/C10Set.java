@@ -1,4 +1,4 @@
-package CO1Basic;
+package C01Basic;
 
 import java.util.HashSet;
 import java.util.LinkedHashSet;

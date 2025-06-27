@@ -1,4 +1,4 @@
-package CO1Basic;
+package C01Basic;
 
 /*
     클래스의 명명규칙

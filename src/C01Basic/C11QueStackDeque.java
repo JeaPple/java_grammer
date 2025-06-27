@@ -1,7 +1,6 @@
-package CO1Basic;
+package C01Basic;
 
 import java.util.*;
-import java.util.concurrent.ArrayBlockingQueue;
 
 public class C11QueStackDeque {
     public static void main(String[] args) {

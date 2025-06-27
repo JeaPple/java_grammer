@@ -1,4 +1,4 @@
-package CO1Basic;
+package C01Basic;
 
 public class C03Operator {
     public static void main(String[] args) {
